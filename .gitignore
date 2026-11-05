@@ -1,0 +1,10 @@
+build/
+outputs/
+data/
+server_config.json
+*.pem
+*.key
+CMakeUserPresets.json
+.cache/
+
+/implementation_plans

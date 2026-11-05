@@ -1,0 +1,15 @@
+{
+  "_comment": "Development only: bind_address 127.0.0.1 with auth_required false. A bind address other than 127.0.0.1 requires tls_cert and tls_key. Point the CLI at the certificate authority with --ca-file.",
+  "bind_address": "127.0.0.1",
+  "port": 7070,
+  "auth_required": true,
+  "auth_token_file": "secrets/auth_token",
+  "tls_cert": "",
+  "tls_key": "",
+  "max_queued": 8,
+  "max_output_bytes": 2147483648,
+  "output_dir": "outputs",
+  "job_dir": "data/jobs",
+  "log_prompts": false,
+  "frame_retention_seconds": 0
+}
